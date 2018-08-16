@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+
+/* Navigation bar stuff */
+ul {
+    z-index: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(69, 59, 117);
+}
+
+li {
+    float: right;
+}
+
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+#S {
+
+    text-shadow: 4px 4px #2e7c86;
+    color: orange;
+}
+
+#RSG {
+    text-shadow: 4px 4px #2e7c86;
+    font-family: monaco,Consolas,Lucida Console,monospace; 
+    font-size: 50px;
+    float: left;
+}
+
+
+
+/* Navigation bar stuff end */
+
+
+/* Three lines button */
+
+/* Styling box that opens. */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #2e7c86;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* Styles words inside of box and time it takes to close. */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    color: rgb(69, 59, 117);
+    display: block;
+    transition: 0.3s;
+    
+}
+
+/* Styles words when mouse hovers. */
+.sidenav a:hover {
+    color: orange;
+}
+
+/*Styles the "x" that closes the bar. */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 200px;
+    font-size: 36px;
+    margin-left: 500px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#lines {
+    position: relative;
+    right: 20px;
+    color: orange;
+    top: -10px;
+}
+
+/* Three lines button end */
+
+/* Circle */
+.circle {
+    z-index: -1;
+    position: absolute;
+    top: -250px;
+    right: -200px;
+    height: 920px;
+    width: 920px;
+    overflow: hidden;
+    background-color: rgba(202, 173, 255, 0.76);
+    border-radius: 50%;
+
+  }
+  /* Circle end */
+
+
+
+  /* Join? */
+
+  #join {
+
+    text-shadow: 2.5px 2.5px rgb(64, 53, 117);
+    position: absolute;
+    top: 280px;
+    color: #118594;
+    left: 120px;
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+
+  }
+  
+    /* Join? end */
+
+    .oval {
+        z-index: -1;
+        position: absolute;
+        top: -250px;
+        left: -200px;
+        height: 920px;
+        width: 920px;
+        overflow: hidden;
+        background-color: rgba(221, 144, 0, 0.699);
+        border-radius: 50%;
+    
+      }
+
+#send {
+    right: 40px;
+    position: absolute;
+    text-align: center;
+    top: 170px;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    width: 500px;
+    font-size: 25px;
+
+}
+
+#note {
+    right: 30px;
+    position: absolute;
+    text-align: center;
+    top: 500px;
+    color: #25636b;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    width: 500px;
+    font-weight: 999;
+
+}
+
+
+#email {
+    left: -2px;
+    position: absolute;
+    top: 750px;
+}
+
+#writing {
+    position: absolute;
+    top: 750px;
+    right: 0px;
+
+
+}
+
+#x {
+    text-decoration: none;
+
+}
+
+
+#flowers {
+    z-index: -2;
+    position: absolute;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Contact bar */
+
+.square {
+    position: absolute;
+    top: 1400px;
+    height: 270px;
+    width: 5000px;
+    background-color: rgb(69, 59, 117);
+    left: -100px;
+  }
+
+#questions {
+    line-height: 5px;
+    position: absolute;
+    top: 1620px;
+    color: rgb(255, 255, 255);
+    left: 350px;
+    font-size: 20px;
+    
+
+}
+
+#social {
+    position: absolute;
+    top: 1500px;
+    left: 460px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#instagram {
+    position: absolute;
+    top: 1500px;
+    left: 710px;
+
+}
+
+#facebook {
+
+    position: absolute;
+    top: 1500px;
+    left: 770px;
+
+}
+
+
+#science {
+    position: absolute;
+    top: 1410px;
+    left: 50px;
+
+}
+
+#science2 {
+    
+    position: absolute;
+    top: 1410px;
+    right: 50px;
+
+}
+
+/* Contact bar end */

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+
+/* Navigation bar stuff */
+ul {
+
+    z-index: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(69, 59, 117);
+}
+
+li {
+    float: right;
+}
+
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+#S {
+
+    text-shadow: 4px 4px #2e7c86;
+    color: orange;
+}
+
+#RSG {
+    text-shadow: 4px 4px #2e7c86;
+    font-family: monaco,Consolas,Lucida Console,monospace; 
+    font-size: 50px;
+    float: left;
+}
+
+
+
+/* Navigation bar stuff end */
+
+
+/* Three lines button */
+
+/* Styling box that opens. */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #2e7c86;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* Styles words inside of box and time it takes to close. */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    color: rgb(69, 59, 117);
+    display: block;
+    transition: 0.3s;
+    
+}
+
+/* Styles words when mouse hovers. */
+.sidenav a:hover {
+    color: orange;
+}
+
+/*Styles the "x" that closes the bar. */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 200px;
+    font-size: 36px;
+    margin-left: 500px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#lines {
+    position: relative;
+    right: 20px;
+    color: orange;
+    top: -10px;
+}
+
+/* Three lines button end */
+
+/* Circle */
+.circle {
+    z-index: -1;
+    position: absolute;
+    top: -250px;
+    right: -200px;
+    height: 920px;
+    width: 920px;
+    overflow: hidden;
+    background-color: rgba(210, 255, 173, 0.623);
+    border-radius: 50%;
+
+  }
+  /* Circle end */

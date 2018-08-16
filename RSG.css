@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+.name {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Navigation bar stuff */
+ul {
+
+    z-index: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(69, 59, 117);
+}
+
+li {
+    float: right;
+}
+
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+#S {
+
+    text-shadow: 4px 4px #2e7c86;
+    color: orange;
+}
+
+#RSG {
+    text-shadow: 4px 4px #2e7c86;
+    font-family: monaco,Consolas,Lucida Console,monospace; 
+    font-size: 50px;
+    float: left;
+}
+
+
+
+/* Navigation bar stuff end */
+
+
+/* Three lines button */
+
+/* Styling box that opens. */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #2e7c86;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* Styles words inside of box and time it takes to close. */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    color: rgb(69, 59, 117);
+    display: block;
+    transition: 0.3s;
+    
+}
+
+/* Styles words when mouse hovers. */
+.sidenav a:hover {
+    color: orange;
+}
+
+/*Styles the "x" that closes the bar. */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 200px;
+    font-size: 36px;
+    margin-left: 500px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#lines {
+    position: relative;
+    right: 20px;
+    color: orange;
+    top: -10px;
+}
+
+/* Three lines button end */
+
+
+body {
+
+    background-color: rgb(255, 255, 255);
+}
+
+/* Circle image */
+.circle {
+    z-index: -1;
+    position: absolute;
+    top: -250px;
+    right: -200px;
+    height: 920px;
+    width: 920px;
+    overflow: hidden;
+    background-color: rgb(173, 236, 255);
+    border-radius: 50%;
+
+  }
+
+  /* Circle image end */
+
+/*Big RSG letters*/
+
+#greeting {
+    z-index: 1;
+    text-shadow: 6px 6px #2e7c86;
+    letter-spacing: 40px;
+    position: absolute;
+    top: 180px;
+    left: 405px;
+    font-family: monaco,Consolas,Lucida Console,monospace; 
+    font-size: 130px;
+    
+}
+
+#subgreeting {
+    z-index: 1;
+    position: absolute;
+    line-height: normal;
+    top: 390px;
+    left: 418px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 8px;
+
+
+
+}
+
+/* Big RSG letters end */
+
+/* line */
+hr { 
+    display: block;
+    color: green;
+    margin-top: 2em;
+    margin-left: -250px;
+    margin-right: -250px;
+    border-width: .5px;
+    border-color: rgba(0, 0, 0, 0.404);;
+
+} 
+/* line end */
+
+/* Bridging the gap */
+
+#bridgegap {
+    z-index: 2;
+    line-height: normal;
+    position: absolute; 
+    top: 560px;
+    left: 280px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: 'Comfortaa', cursive;
+ 
+
+}
+
+/* Bridging the gap end */
+
+/*Photo*/
+#logo {
+    margin: 10;
+    padding: 100;
+    position: absolute;
+    top: 640px;
+    left: 35px;
+}
+
+/*Photo end*/
+
+.rectangle {
+    position: absolute;
+    height: 15px;
+    width: 120px;
+    background-color: orange;
+    top: 640px;
+    left: 450px;
+
+  }
+
+/* Inspiration text */
+
+#inspiration {
+    z-index: -1;
+    position: absolute;
+    top: 630px;
+    width: 800px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    left: 400px;
+    font-family: 'Peddana', serif;
+    line-height: 25px;
+}
+
+#change {
+    position: absolute;
+    top: 765px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    left: 700px;
+    font-family: 'Peddana', serif;
+    line-height: 25px;
+    
+}
+
+#resolution {
+    position: absolute;
+    top: 11px;
+    width: 800px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    left: -330px;
+    font-family: 'Peddana', serif;
+    line-height: 25px;
+}
+
+#stem {
+    position: absolute;
+    top: 100px;
+    width: 800px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    left: -330px;
+    font-family: 'Peddana', serif;
+    line-height: 25px;
+}
+
+/* Inspiration text end */
+
+/* Bottom info bar */
+.square {
+    position: absolute;
+    top: 1100px;
+    height: 270px;
+    width: 5000px;
+    background-color: rgb(69, 59, 117);
+    left: -100px;
+  }
+
+  /* Bottom info bar end */
+  
+/* Contact bar */
+
+#questions {
+    line-height: 5px;
+    position: absolute;
+    top: 1320px;
+    color: rgb(255, 255, 255);
+    left: 350px;
+    font-size: 20px;
+    
+
+}
+
+#social {
+    position: absolute;
+    top: 1200px;
+    left: 460px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#instagram {
+    position: absolute;
+    top: 1200px;
+    left: 710px;
+
+}
+
+#facebook {
+
+    position: absolute;
+    top: 1200px;
+    left: 770px;
+
+}
+
+
+#science {
+    position: absolute;
+    top: 1110px;
+    left: 50px;
+
+}
+
+#science2 {
+    
+    position: absolute;
+    top: 1110px;
+    right: 50px;
+
+}
+
+/* Contact bar end */
+
