@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+
+/* Navigation bar stuff */
+ul {
+
+    z-index: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(69, 59, 117);
+}
+
+li {
+    float: right;
+}
+
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+#S {
+
+    text-shadow: 4px 4px #2e7c86;
+    color: orange;
+}
+
+#RSG {
+    text-shadow: 4px 4px #2e7c86;
+    font-family: monaco,Consolas,Lucida Console,monospace; 
+    font-size: 50px;
+    float: left;
+}
+
+
+
+/* Navigation bar stuff end */
+
+
+/* Three lines button */
+
+/* Styling box that opens. */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #2e7c86;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* Styles words inside of box and time it takes to close. */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    color: rgb(69, 59, 117);
+    display: block;
+    transition: 0.3s;
+    
+}
+
+/* Styles words when mouse hovers. */
+.sidenav a:hover {
+    color: orange;
+}
+
+/*Styles the "x" that closes the bar. */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 200px;
+    font-size: 36px;
+    margin-left: 500px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#lines {
+    position: relative;
+    right: 20px;
+    color: orange;
+    top: -10px;
+}
+
+/* Three lines button end */
+
+.GPS {
+
+    position: absolute;
+    z-index: -1;
+    width: 1268px;
+
+    background-image: url("GPS.jpg");
+    margin-top: 0px;
+    /* Create the parallax scrolling effect */
+
+}
+
+.intro {
+
+    position: absolute;
+    color: #2e7c86;
+    text-shadow: 3px 3px orange;
+    z-index: 1;
+    top: 200px;
+    left: 500px;
+    width: 300px;
+    height: 300px;
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+    top: 150px;
+    height: 350px;
+    width: 350px;
+    background-color: rgba(253, 239, 245, 0.61);
+    left: 480px;
+  }
+
+
+.onesquare {
+
+    position: absolute;
+    z-index: 0;
+    top: 550px;
+    height: 350px;
+    width: 265px;
+    background-color: rgba(253, 239, 245, 0.911);
+    left: 40px;
+
+}
+
+.twosquare {
+
+    position: absolute;
+    z-index: 0;
+    top: 550px;
+    height: 350px;
+    width: 265px;
+    background-color: rgba(253, 239, 245, 0.911);
+    left: 350px;
+
+}
+
+.threesquare {
+
+    position: absolute;
+    z-index: 0;
+    top: 550px;
+    height: 350px;
+    width: 265px;
+    background-color: rgba(253, 239, 245, 0.911);
+    left: 670px;
+
+}
+
+.foursquare {
+
+    position: absolute;
+    z-index: 0;
+    top: 550px;
+    height: 350px;
+    width: 265px;
+    background-color: rgba(253, 239, 245, 0.911);
+    right: 40px;
+
+}
+
+.session {
+    
+    position: absolute;
+    z-index: 1;
+    top: 560px;
+    height: 350px;
+    width: 255px;
+    left: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+.stext {
+
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    height: 350px;
+    width: 255px;
+    left: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+}
+
+.time {
+
+    position: absolute;
+    z-index: 1;
+    top: 560px;
+    height: 350px;
+    width: 265px;
+    left: 350px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+.ttext {
+
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    height: 350px;
+    width: 255px;
+    left: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+
+}
+
+.location {
+
+    position: absolute;
+    z-index: 1;
+    top: 560px;
+    height: 350px;
+    width: 265px;
+    left: 670px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+.ltext {
+
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    height: 350px;
+    width: 240px;
+    left: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    
+
+}
+
+#school {
+
+    position: absolute;
+    text-decoration: none;
+    color: #2e7c86;
+    font-size: 14.5px;
+    left: -70px;
+    top: 22px;
+
+
+}
+
+
+.cost {
+
+    position: absolute;
+    z-index: 1;
+    top: 560px;
+    height: 350px;
+    width: 265px;
+    right: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+
+}
+
+.ctext {
+
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    height: 350px;
+    width: 235px;
+    left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+
+}
+
+.tuned {
+    position: relative;
+    top: 40px;
+}
+
+.headone {
+
+    color: rgb(69, 59, 117);
+    text-shadow: 1px 1px orange;
+
+}
+
+#street {
+    position: absolute;
+
+    top: 220px;
+    left: 22px;
+
+}
+
+
+/* Bottom contact stuff */
+
+.square {
+    position: absolute;
+    top: 920px;
+    height: 270px;
+    width: 5000px;
+    background-color: rgb(69, 59, 117);
+    left: -100px;
+  }
+
+
+
+#questions {
+    line-height: 5px;
+    position: absolute;
+    top: 1070px;
+    color: rgb(255, 255, 255);
+    left: 350px;
+    font-size: 20px;
+    
+
+}
+
+#social {
+    position: absolute;
+    top: 970px;
+    left: 460px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#instagram {
+    position: absolute;
+    top: 970px;
+    left: 710px;
+
+}
+
+#facebook {
+
+    position: absolute;
+    top: 970px;
+    left: 770px;
+
+}
+
+
+#science {
+    position: absolute;
+    top: 930px;
+    left: 50px;
+
+}
+
+#science2 {
+    
+    position: absolute;
+    top: 930px;
+    right: 50px;
+
+}
+
+.form {
+    z-index: 2;
+    line-height: 5px;
+    position: absolute;
+    top: 1110px;
+    color: rgb(255, 255, 255);
+    left: 500px;
+    font-size: 16px;
+
+
+}
+
+.thisform {
+
+    text-decoration: none;
+    color: orange;
+
+}
+
+/* Contact bar end */
+
+.box {
+    position: relative;
+    z-index: 2;
+    margin-top: -90px;
+    height: 90px;
+    width: 180px;
+    margin-left: 0px;
+    background-color: rgba(224, 242, 255, 0);
+
+}

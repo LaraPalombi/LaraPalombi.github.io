@@ -104,17 +104,238 @@ li a {
 
 /* Three lines button end */
 
-/* Circle */
-.circle {
-    z-index: -1;
-    position: absolute;
-    top: -250px;
-    right: -200px;
-    height: 920px;
-    width: 920px;
-    overflow: hidden;
-    background-color: rgba(210, 255, 173, 0.623);
-    border-radius: 50%;
 
+
+  
+
+  #aboutus {
+    z-index: 2;
+    line-height: normal;
+    position: absolute; 
+    top: 220px;
+    left: 460px;
+    font-size: 65px;
+    letter-spacing: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(69, 59, 117);
+    text-shadow: 2px 3px orange;
+ 
   }
-  /* Circle end */
+
+/* Rose photo */
+
+  .container {
+    position: relative;
+    top: 150px;
+    width: 45%;
+    left: 15px;
+  }
+  
+  .image {
+  
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .overlay {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(0, 143, 209);
+  }
+  
+  .container:hover .overlay {
+    opacity: .8;
+  }
+  
+  .text {
+    width: 420px;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    position: absolute;
+    top: 90px;
+    left: 75px;
+    text-align: center;
+  }
+
+
+
+
+  /*Lara Photo */
+
+  /* .cat {
+    position: absolute;
+    top: 350px;
+    transform: rotate(90deg);
+    border-radius: 50%;
+    width: 58%;
+    right: -60px;
+
+
+  } */
+
+  .mycontainer {
+    position: relative;
+    top:-600px;
+    width: 45%;
+    right: -680px;
+  }
+  
+  .myimage {
+  
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .overlay {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(0, 143, 209);
+  }
+  
+  .mycontainer:hover .overlay {
+    opacity: .9;
+  }
+  
+  .mytext {
+    width: 450px;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    text-align: center;
+  }
+
+
+.sky {
+
+    width: 100%;
+    height: 1100px;
+    position: absolute;
+    z-index: -2;
+    opacity: .7;
+    top: 0px;
+
+}
+
+
+
+/* Bottom info bar */
+.square {
+    position: absolute;
+    top: 1100px;
+    height: 270px;
+    width: 5000px;
+    background-color: rgb(69, 59, 117);
+    left: -100px;
+  }
+
+  /* Bottom info bar end */
+  
+/* Contact bar */
+
+#questions {
+    line-height: 5px;
+    position: absolute;
+    top: 1250px;
+    color: rgb(255, 255, 255);
+    left: 350px;
+    font-size: 20px;
+    
+
+}
+
+#social {
+    position: absolute;
+    top: 1150px;
+    left: 460px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#instagram {
+    position: absolute;
+    top: 1150px;
+    left: 710px;
+
+}
+
+#facebook {
+
+    position: absolute;
+    top: 1150px;
+    left: 770px;
+
+}
+
+
+#science {
+    position: absolute;
+    top: 1110px;
+    left: 50px;
+
+}
+
+#science2 {
+    
+    position: absolute;
+    top: 1110px;
+    right: 50px;
+
+}
+
+.form {
+
+    line-height: 5px;
+    position: absolute;
+    top: 1290px;
+    color: rgb(255, 255, 255);
+    left: 500px;
+    font-size: 16px;
+
+
+}
+
+.thisform {
+
+    text-decoration: none;
+    color: orange;
+
+}
+
+/* Contact bar end */
+
+
+.box {
+    position: relative;
+    z-index: 2;
+    margin-top: -1603px;
+    height: 90px;
+    width: 180px;
+    margin-left: 0px;
+    background-color: rgba(224, 242, 255, 0);
+
+}

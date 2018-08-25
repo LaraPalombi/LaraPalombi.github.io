@@ -3,10 +3,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
+.clouds {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: .7;
+
+}
+
+.science {
+
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    opacity: .7;
+    top: 860px;
+
+}
+
+/* Circle */
 
 
-/* Navigation bar stuff */
-ul {
+  ul {
     z-index: 0;
     list-style-type: none;
     margin: 0;
@@ -101,10 +119,189 @@ li a {
     top: -10px;
 }
 
-/* Three lines button end */
+.faq {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    color: #2e7c86;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 95px;
+    letter-spacing: 25px;
+    text-shadow: 3px 3px orange;
 
-#clouds {
+}
 
-    opacity: .5;
+/* Accordion */
+
+.accordion {
+    position: relative;
+    top: 250px;
+    background-color: #5ca7b1;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 600px;
+    left: 330px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: orange;
+}
+
+
+.accordion:after {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    position: relative;
+    left: 330px;
+    top: 250px;
+    width: 563px;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.school {
+
+    text-decoration: none;
+    color: orange;
+
+}
+
+.info {
+
+    text-decoration: none;
+    color: orange;
+
+}
+
+.form {
+
+    text-decoration: none;
+    color: orange;
+
+}
+
+/* Bottom info bar */
+.square {
+    position: absolute;
+    top: 1445px;
+    height: 270px;
+    width: 5000px;
+    background-color: rgb(69, 59, 117);
+    left: -100px;
+  }
+
+  /* Bottom info bar end */
+  
+/* Contact bar */
+
+#questions {
+    line-height: 5px;
+    position: absolute;
+    top: 1595px;
+    color: rgb(255, 255, 255);
+    left: 350px;
+    font-size: 20px;
+    
+
+}
+
+#social {
+    position: absolute;
+    top: 1495px;
+    left: 460px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#instagram {
+    position: absolute;
+    top: 1495px;
+    left: 710px;
+
+}
+
+#facebook {
+
+    position: absolute;
+    top: 1495px;
+    left: 770px;
+
+}
+
+
+#science {
+    position: absolute;
+    top: 1445px;
+    left: 50px;
+
+}
+
+#science2 {
+    
+    position: absolute;
+    top: 1445px;
+    right: 50px;
+
+}
+
+/* Contact bar end */
+
+#form {
+
+    text-decoration: none;
+    color: orange;
+
+}
+
+.form {
+    z-index: 2;
+    line-height: 5px;
+    position: absolute;
+    top: 1635px;
+    color: rgb(255, 255, 255);
+    left: 500px;
+    font-size: 16px;
+
+
+}
+
+.thisform {
+
+    text-decoration: none;
+    color: orange;
+
+}
+
+.box {
+    position: relative;
+    z-index: 2;
+    margin-top: -880px;
+    height: 90px;
+    width: 180px;
+    margin-left: 0px;
+    background-color: rgba(224, 242, 255, 0);
 
 }

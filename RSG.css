@@ -3,6 +3,27 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
+.box {
+    position: relative;
+    z-index: 5;
+    margin-top: -90px;
+    height: 90px;
+    width: 180px;
+    margin-left: 0px;
+    background-color: rgba(224, 242, 255, 0);
+
+}
+
+.girls {
+
+
+    position: absolute;
+    height: 200px;
+    left: 65px;
+    top: 289px;
+
+}
+
 
 .name {
     max-width: 100%;
@@ -154,10 +175,10 @@ body {
     position: absolute;
     line-height: normal;
     top: 390px;
-    left: 418px;
+    left: 430px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    letter-spacing: 8px;
+    font-size: 32px;
+    letter-spacing: 7px;
 
 
 
@@ -245,7 +266,7 @@ hr {
 
 #resolution {
     position: absolute;
-    top: 11px;
+    top: 20px;
     width: 800px;
     border: 25px;
     padding: 25px;
@@ -255,14 +276,24 @@ hr {
     line-height: 25px;
 }
 
+
+.passion {
+
+    position: absolute;
+    top: 120px;
+    left: 250px;
+
+}
+
+
 #stem {
     position: absolute;
-    top: 100px;
+    top: 190px;
     width: 800px;
     border: 25px;
     padding: 25px;
     margin: 25px;
-    left: -330px;
+    left: -908px;
     font-family: 'Peddana', serif;
     line-height: 25px;
 }
@@ -286,17 +317,18 @@ hr {
 #questions {
     line-height: 5px;
     position: absolute;
-    top: 1320px;
+    top: 1270px;
     color: rgb(255, 255, 255);
     left: 350px;
     font-size: 20px;
+    text-decoration: none;
     
 
 }
 
 #social {
     position: absolute;
-    top: 1200px;
+    top: 1150px;
     left: 460px;
     color: rgb(255, 255, 255);
     font-family: 'Lobster', cursive;
@@ -305,7 +337,7 @@ hr {
 
 #instagram {
     position: absolute;
-    top: 1200px;
+    top: 1150px;
     left: 710px;
 
 }
@@ -313,7 +345,7 @@ hr {
 #facebook {
 
     position: absolute;
-    top: 1200px;
+    top: 1150px;
     left: 770px;
 
 }
@@ -333,6 +365,28 @@ hr {
     right: 50px;
 
 }
+
+
+
+.form {
+
+    line-height: 5px;
+    position: absolute;
+    top: 1310px;
+    color: rgb(255, 255, 255);
+    left: 500px;
+    font-size: 16px;
+
+
+}
+
+.thisform {
+
+    text-decoration: none;
+    color: orange;
+
+}
+
 
 /* Contact bar end */
 
