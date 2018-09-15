@@ -109,8 +109,8 @@ li a {
     position: absolute;
     top: -250px;
     right: -200px;
-    height: 920px;
-    width: 920px;
+    height: 850px;
+    width: 850px;
     overflow: hidden;
     background-color: rgba(202, 173, 255, 0.76);
     border-radius: 50%;
@@ -124,19 +124,19 @@ li a {
 
   #join {
 
-    text-shadow: 2.5px 2.5px rgb(64, 53, 117);
+    text-shadow: 2.5px 2.5px #118594;
     position: absolute;
-    top: 280px;
-    color: #118594;
-    left: 120px;
-    font-size: 50px;
+    top: 460px;
+    color:rgb(64, 53, 117);
+    left: 40px;
+    font-size: 57px;
     font-family: 'Comfortaa', cursive;
 
   }
   
     /* Join? end */
 
-    .oval {
+    /* .oval {
         z-index: -1;
         position: absolute;
         top: -250px;
@@ -147,30 +147,37 @@ li a {
         background-color: rgba(221, 144, 0, 0.699);
         border-radius: 50%;
     
-      }
+      } */
 
 #send {
-    right: 40px;
+    right: 30px;
     position: absolute;
     text-align: center;
-    top: 170px;
+    top: 150px;
     color: black;
     font-family: 'Comfortaa', cursive;
-    width: 500px;
+    width: 520px;
     font-size: 25px;
 
 }
 
 #note {
-    right: 30px;
+    right: 20px;
     position: absolute;
     text-align: center;
-    top: 500px;
-    color: #25636b;
+    top: 430px;
+    color: black;
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
-    width: 500px;
-    font-weight: 999;
+    width: 520px;
+
+
+}
+
+.noteclass {
+
+    text-decoration: none;
+    color: #2e7c86;
 
 }
 
@@ -178,11 +185,13 @@ li a {
 #email {
     left: -2px;
     position: absolute;
+    z-index: 2;
     top: 750px;
 }
 
 #writing {
     position: absolute;
+    z-index: 2;
     top: 750px;
     right: 0px;
 
@@ -198,7 +207,7 @@ li a {
 #flowers {
     z-index: -2;
     position: absolute;
-    opacity: .5;
+    opacity: 1;
     height: 100%;
     width: 100%;
 }
@@ -218,7 +227,7 @@ li a {
 #questions {
     line-height: 5px;
     position: absolute;
-    top: 1620px;
+    top: 1550px;
     color: rgb(255, 255, 255);
     left: 350px;
     font-size: 20px;
@@ -228,7 +237,7 @@ li a {
 
 #social {
     position: absolute;
-    top: 1500px;
+    top: 1450px;
     left: 460px;
     color: rgb(255, 255, 255);
     font-family: 'Lobster', cursive;
@@ -237,7 +246,7 @@ li a {
 
 #instagram {
     position: absolute;
-    top: 1500px;
+    top: 1450px;
     left: 710px;
 
 }
@@ -245,7 +254,7 @@ li a {
 #facebook {
 
     position: absolute;
-    top: 1500px;
+    top: 1450px;
     left: 770px;
 
 }
@@ -266,4 +275,60 @@ li a {
 
 }
 
+.form {
+    z-index: 2;
+    line-height: 5px;
+    position: absolute;
+    top: 1590px;
+    color: rgb(255, 255, 255);
+    left: 500px;
+    font-size: 16px;
+
+
+}
+
+.thisform {
+
+    text-decoration: none;
+    color: orange;
+
+}
+
 /* Contact bar end */
+
+.box {
+    position: relative;
+    z-index: 2;
+    margin-top: -90px;
+    height: 90px;
+    width: 180px;
+    margin-left: 0px;
+    background-color: rgba(224, 242, 255, 0);
+
+}
+
+
+.arrow {
+
+
+    position: fixed;
+    background-color: rgba(255, 166, 0, 0.726);
+    border-radius: 50%;
+    height: 70px;
+    top: 550px;
+    left: 600px;
+
+}
+
+.white {
+    position: relative;
+    background-color: white;
+    z-index: 5;
+    width: 5000px;
+    color: white;
+    top: 1250px;
+    left: -10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}

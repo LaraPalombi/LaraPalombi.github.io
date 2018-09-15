@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
+
+
+
 .box {
     position: relative;
     z-index: 5;
@@ -30,10 +33,6 @@
     overflow-x: hidden;
   }
 
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
 /* Navigation bar stuff */
 ul {
@@ -142,194 +141,211 @@ body {
 }
 
 /* Circle image */
-.circle {
+
+
+.frog {
+
     z-index: -1;
-    position: absolute;
-    top: -250px;
-    right: -200px;
-    height: 920px;
+    width: 100%;
+    opacity: .8;
+
+}
+
+
+.header {
+
+    position: relative;
+    z-index: 1;
+    line-height: normal;
+    top: -800px;
+    left: 480px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    letter-spacing: 7px;
+    color: white;
+
+}
+
+
+.geology {
+
+    z-index: 1;
+    position: relative;
+    top: -750px;
+    right: -180px;
+    height: 120px;
     width: 920px;
     overflow: hidden;
-    background-color: rgb(173, 236, 255);
-    border-radius: 50%;
-
-  }
-
-  /* Circle image end */
-
-/*Big RSG letters*/
-
-#greeting {
-    z-index: 1;
-    text-shadow: 6px 6px #2e7c86;
-    letter-spacing: 40px;
-    position: absolute;
-    top: 180px;
-    left: 405px;
-    font-family: monaco,Consolas,Lucida Console,monospace; 
-    font-size: 130px;
-    
-}
-
-#subgreeting {
-    z-index: 1;
-    position: absolute;
-    line-height: normal;
-    top: 390px;
-    left: 430px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
-    letter-spacing: 7px;
-
-
+    background-color: rgba(173, 236, 255, 0.699);
 
 }
 
-/* Big RSG letters end */
-
-/* line */
-hr { 
-    display: block;
-    color: green;
-    margin-top: 2em;
-    margin-left: -250px;
-    margin-right: -250px;
-    border-width: .5px;
-    border-color: rgba(0, 0, 0, 0.404);;
-
-} 
-/* line end */
-
-/* Bridging the gap */
-
-#bridgegap {
+.geotext {
+    position: relative;
     z-index: 2;
-    line-height: normal;
-    position: absolute; 
-    top: 560px;
-    left: 280px;
-    font-size: 30px;
-    letter-spacing: 5px;
-    font-family: 'Comfortaa', cursive;
- 
+    width: 900px;
+    font-family: 'Montserrat', sans-serif;
+    top: -850px;
+    right: -190px;
+}
+
+.biology {
+
+    z-index: 1;
+    position: relative;
+    top: -800px;
+    right: -180px;
+    height: 120px;
+    width: 920px;
+    overflow: hidden;
+    background-color: rgba(173, 236, 255, 0.699);
 
 }
 
-/* Bridging the gap end */
+.biotext {
 
-/*Photo*/
-#logo {
-    margin: 10;
-    padding: 100;
-    position: absolute;
-    top: 640px;
-    left: 35px;
+    position: relative;
+    z-index: 2;
+    width: 900px;
+    font-family: 'Montserrat', sans-serif;
+    top: -900px;
+    right: -190px;
+
 }
 
-/*Photo end*/
+.chemistry {
 
-.rectangle {
-    position: absolute;
-    height: 15px;
-    width: 120px;
-    background-color: orange;
-    top: 640px;
-    left: 450px;
+    z-index: 1;
+    position: relative;
+    top: -845px;
+    right: -180px;
+    height: 120px;
+    width: 920px;
+    overflow: hidden;
+    background-color: rgba(173, 236, 255, 0.699);
 
-  }
-
-/* Inspiration text */
-
-#inspiration {
-    z-index: -1;
-    position: absolute;
-    top: 630px;
-    width: 800px;
-    border: 25px;
-    padding: 25px;
-    margin: 25px;
-    left: 400px;
-    font-family: 'Peddana', serif;
-    line-height: 25px;
 }
 
-#change {
-    position: absolute;
-    top: 765px;
-    border: 25px;
-    padding: 25px;
-    margin: 25px;
-    left: 700px;
-    font-family: 'Peddana', serif;
-    line-height: 25px;
-    
+.chemtext {
+
+    position: relative;
+    z-index: 2;
+    width: 900px;
+    font-family: 'Montserrat', sans-serif;
+    top: -930px;
+    right: -190px;
+
 }
 
-#resolution {
-    position: absolute;
-    top: 20px;
-    width: 800px;
-    border: 25px;
-    padding: 25px;
-    margin: 25px;
-    left: -330px;
-    font-family: 'Peddana', serif;
-    line-height: 25px;
-}
+.mechanics {
 
-
-.passion {
-
-    position: absolute;
-    top: 120px;
-    left: 250px;
+    z-index: 1;
+    position: relative;
+    top: -850px;
+    right: -180px;
+    height: 120px;
+    width: 920px;
+    overflow: hidden;
+    background-color: rgba(173, 236, 255, 0.699);
 
 }
 
 
-#stem {
-    position: absolute;
-    top: 190px;
-    width: 800px;
-    border: 25px;
-    padding: 25px;
-    margin: 25px;
-    left: -908px;
-    font-family: 'Peddana', serif;
-    line-height: 25px;
+.mechtext {
+
+    position: relative;
+    z-index: 2;
+    width: 900px;
+    font-family: 'Montserrat', sans-serif;
+    top: -940px;
+    right: -190px;
+
 }
 
-/* Inspiration text end */
+.chick {
 
-/* Bottom info bar */
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    opacity: .8;
+    top: -783px;
+
+}
+
+.chemphysics {
+
+    z-index: 1;
+    position: relative;
+    top: -1470px;
+    right: -180px;
+    height: 120px;
+    width: 920px;
+    overflow: hidden;
+    background-color: rgba(173, 236, 255, 0.699);
+
+}
+
+.chemphytext {
+
+    position: relative;
+    z-index: 2;
+    width: 900px;
+    font-family: 'Montserrat', sans-serif;
+    top: -1560px;
+    right: -190px;
+
+
+}
+
+.quantum {
+
+    z-index: 1;
+    position: relative;
+    top: -1480px;
+    right: -180px;
+    height: 120px;
+    width: 920px;
+    overflow: hidden;
+    background-color: rgba(173, 236, 255, 0.699);
+
+}
+
+.quantumtext {
+
+    position: relative;
+    z-index: 2;
+    width: 900px;
+    font-family: 'Montserrat', sans-serif;
+    top: -1560px;
+    right: -190px;
+
+}
+
+/* Contact bar */
+
 .square {
     position: absolute;
-    top: 1100px;
+    top: 1400px;
     height: 270px;
     width: 5000px;
     background-color: rgb(69, 59, 117);
     left: -100px;
   }
 
-  /* Bottom info bar end */
-  
-/* Contact bar */
-
 #questions {
     line-height: 5px;
     position: absolute;
-    top: 1270px;
+    top: 1550px;
     color: rgb(255, 255, 255);
     left: 350px;
     font-size: 20px;
-    text-decoration: none;
     
 
 }
 
 #social {
     position: absolute;
-    top: 1150px;
+    top: 1450px;
     left: 460px;
     color: rgb(255, 255, 255);
     font-family: 'Lobster', cursive;
@@ -338,7 +354,7 @@ hr {
 
 #instagram {
     position: absolute;
-    top: 1150px;
+    top: 1450px;
     left: 710px;
 
 }
@@ -346,7 +362,7 @@ hr {
 #facebook {
 
     position: absolute;
-    top: 1150px;
+    top: 1450px;
     left: 770px;
 
 }
@@ -354,7 +370,7 @@ hr {
 
 #science {
     position: absolute;
-    top: 1110px;
+    top: 1410px;
     left: 50px;
 
 }
@@ -362,18 +378,16 @@ hr {
 #science2 {
     
     position: absolute;
-    top: 1110px;
+    top: 1410px;
     right: 50px;
 
 }
 
-
-
 .form {
-
+    z-index: 2;
     line-height: 5px;
     position: absolute;
-    top: 1310px;
+    top: 1590px;
     color: rgb(255, 255, 255);
     left: 500px;
     font-size: 16px;
@@ -388,36 +402,5 @@ hr {
 
 }
 
-
 /* Contact bar end */
-
-
-/* 
-@media screen and (max-width: 768px) {
-
-    .circle {z-index: -1;
-        position: absolute;
-        top: -250px;
-        right: -400px;
-        height: 680px;
-        width: 780px;
-        overflow: hidden;
-        background-color: rgb(173, 236, 255);
-        border-radius: 50%;}
-    
-} */
-
-/* @media screen and (max-width: 1000px) {
-
-    #greeting {
-        z-index: 1;
-        text-shadow: 6px 6px #2e7c86;
-        letter-spacing: 20px;
-        position: absolute;
-        top: 180px;
-        left: 150px;
-        font-family: monaco,Consolas,Lucida Console,monospace; 
-        font-size: 80px;
-
-} */
 
