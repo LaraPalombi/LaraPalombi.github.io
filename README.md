@@ -1,2 +1,3 @@
-# Riverdale-Science-Girls
+# rsg.github.io
+
 Website for RSG.
